@@ -6,7 +6,7 @@ import googleIconImg from '../assets/images/google-icon.svg';
 
 import '../styles/auth.scss';
 import { Button } from '../components/Button';
-import { useAuth } from '../contexts/hooks/useAuth';
+import { useAuth } from '../hooks/useAuth';
 
 export function Home() {
   const navigate = useNavigate();
